@@ -115,7 +115,7 @@ def login(username, password):
         "validateCode": "",
         "captchaToken": captchaToken,
         "returnUrl": returnUrl,
-        "mailSuffix": "@189.cn",
+        "mailSuffix": "@189.cn", 
         "paramId": paramId
         }
     r = s.post(url, data=data, headers=headers, timeout=5)
