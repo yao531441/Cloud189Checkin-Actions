@@ -116,7 +116,7 @@ def login(username, password):
         "captchaToken": captchaToken,
         "returnUrl": returnUrl,
         "mailSuffix": "@189.cn", 
-        "paramId": paramId
+        "paramId": paramId 
         }
     r = s.post(url, data=data, headers=headers, timeout=5)
     if(r.json()['result'] == 0):
